@@ -1,0 +1,9 @@
+# Visual Studio Temporary Files and Cache
+.vs/
+
+# Binaries and intermediate build files
+[Bb]in/
+[Oo]bj/
+
+# User-specific preferences
+*.user
