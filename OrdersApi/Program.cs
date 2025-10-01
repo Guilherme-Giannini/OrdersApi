@@ -8,7 +8,7 @@ using OrdersApi.Domain.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDependencyInjection(builder.Configuration);
+builder.Services.AddDependencyInjection();
 
 builder.Services.AddTransient<ICommandHandler<CreateOrderCommand, string>, CreateOrderHandler>();
 builder.Services.AddTransient<IQueryHandler<GetAllOrdersQuery, List<Order>>, GetAllOrdersHandler>();
