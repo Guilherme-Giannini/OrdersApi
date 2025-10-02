@@ -1,5 +1,4 @@
-﻿using LiteBus.Queries;
-using LiteBus.Queries.Abstractions;
+﻿using LiteBus.Queries.Abstractions;
 using OrdersApi.Domain.Entities;
 
 namespace OrdersApi.Application.Queries;

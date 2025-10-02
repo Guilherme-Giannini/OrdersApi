@@ -1,5 +1,4 @@
-﻿using LiteBus.Commands;
-using LiteBus.Commands.Abstractions;
+﻿using LiteBus.Commands.Abstractions;
 using OrdersApi.Application.Commands;
 using OrdersApi.Domain.Entities;
 using OrdersApi.Infrastructure.Mongo;

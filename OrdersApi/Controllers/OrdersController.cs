@@ -1,11 +1,8 @@
-﻿using LiteBus.Commands;
-using LiteBus.Commands.Abstractions;
-using LiteBus.Queries;
+﻿using LiteBus.Commands.Abstractions;
 using LiteBus.Queries.Abstractions;
 using Microsoft.AspNetCore.Mvc;
 using OrdersApi.Application.Commands;
 using OrdersApi.Application.Queries;
-using OrdersApi.Domain.Entities;
 using OrdersApi.Models;
 
 namespace OrdersApi.Controllers;
